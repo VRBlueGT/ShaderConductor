@@ -56,7 +56,7 @@ else()
 	foreach(flagVar
 		CMAKE_C_FLAGS CMAKE_CXX_FLAGS)
 		set(${flagVar} "${${flagVar}} -W -Wall -Werror")
-		if(NOT (ANDROID OR IOS))
+		if(NOT (ANDROID OR IOS OR (CMAKE_HOST_SYSTEM_PROCESSOR STREQUAL "arm64")))
 			set(${flagVar} "${${flagVar}} -march=core2 -msse2")
 		endif()
 	endforeach()
