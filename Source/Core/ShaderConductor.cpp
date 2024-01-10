@@ -878,6 +878,7 @@ namespace
             }
             mslOpts.swizzle_texture_samples = false;
             mslOpts.use_framebuffer_fetch_subpasses = true;
+			mslOpts.ios_support_base_vertex_instance = true;
             mslOpts.platform = (target.language == ShadingLanguage::Msl_iOS) ? spirv_cross::CompilerMSL::Options::iOS
                                                                              : spirv_cross::CompilerMSL::Options::macOS;
 
