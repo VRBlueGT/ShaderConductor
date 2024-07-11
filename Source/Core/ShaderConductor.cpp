@@ -648,7 +648,7 @@ namespace
         if (target.language == ShadingLanguage::SpirV)
         {
             dxcArgStrings.push_back(L"-spirv");
-            dxcArgStrings.push_back(L"-fspv-reflect");
+            //dxcArgStrings.push_back(L"-fspv-reflect");
 
             if ((target.version != nullptr) && (std::strlen(target.version) >= 2))
             {
