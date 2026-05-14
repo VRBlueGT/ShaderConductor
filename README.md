@@ -1,6 +1,6 @@
 # ShaderConductor
 ## WARNING
-If you want to make any pool requests or anything new please check out the Codeberg at https://codeberg.org/VRBlueGT/ShaderConductor.
+If you want to make any pull requests or anything new please check out the Codeberg at https://codeberg.org/VRBlueGT/ShaderConductor.
 
 [![Build Status](https://dev.azure.com/msft-ShaderConductor/public/_apis/build/status/ShaderConductor-CI)](https://dev.azure.com/msft-ShaderConductor/public/_build/latest?definitionId=1)
 [![License](https://img.shields.io/github/license/mashape/apistatus.svg)](LICENSE)
